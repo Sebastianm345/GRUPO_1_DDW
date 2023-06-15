@@ -53,10 +53,30 @@ body {
   #inicio {
     background-color: #f1f1f1;
   }
+
+
+  /* ------------------------- */
+  /* Acerca */
+  /* ------------------------- */
   
   #acerca {
     background-color: #ccc;
   }
+
+  .caja_titulo {
+    background-color: purple;
+    justify-content: center;
+    display: flex;
+
+  }
+  
+  .caja_texto_nosotros {
+    background-color: aqua;
+  }
+  
+    /* ------------------------- */
+    /* Contacto */
+    /* ------------------------- */
   
   #contacto {
     background-color: #999;
@@ -146,5 +166,4 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-      
+      }  
