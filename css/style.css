@@ -56,10 +56,30 @@ body {
     margin: 120px 0px 0px 0px;
     height: 700px;
   }
+
+
+  /* ------------------------- */
+  /* Acerca */
+  /* ------------------------- */
   
   #acerca {
     background-color: #ccc;
   }
+
+  .caja_titulo {
+    background-color: purple;
+    justify-content: center;
+    display: flex;
+
+  }
+  
+  .caja_texto_nosotros {
+    background-color: aqua;
+  }
+  
+    /* ------------------------- */
+    /* Contacto */
+    /* ------------------------- */
   
   #contacto {
     background-color: #999;
@@ -150,17 +170,4 @@ body {
         justify-content: center;
         align-items: center;
       }
-    
-      .imagen1 {
-        display: flex;
-        background-color: aqua;
-        height: 650px;
-      }
-      .imagen1 img {
-        display:block;
-        width: 95%;
-        margin:auto;
-        height: 95%;
       
-        
-      }
