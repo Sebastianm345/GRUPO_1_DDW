@@ -5,14 +5,13 @@ body {
   }
   
   .navbar {
-    background-color: #1b1717;
     position: fixed;
     top: 0;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0px 20px 0px 5px;
+    padding:15px 0 0 0;
+	  margin: 0;
+    width: 100%;
   }
   
   .navbar img {
@@ -29,16 +28,18 @@ body {
   .navbar-links a {
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    padding: 35px;
     
     display: inline-block;
   }
   .navbar a {
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    padding: 35px;
     display: inline-block;
+	 
   }
+
 
   .content {
     margin-top: 60px;
@@ -51,32 +52,14 @@ body {
   }
   
   #inicio {
-    background-color: #f1f1f1;
+    background-color: #e20808;
+    margin: 120px 0px 0px 0px;
+    height: 700px;
   }
-
-
-  /* ------------------------- */
-  /* Acerca */
-  /* ------------------------- */
   
   #acerca {
     background-color: #ccc;
   }
-
-  .caja_titulo {
-    background-color: purple;
-    justify-content: center;
-    display: flex;
-
-  }
-  
-  .caja_texto_nosotros {
-    background-color: aqua;
-  }
-  
-    /* ------------------------- */
-    /* Contacto */
-    /* ------------------------- */
   
   #contacto {
     background-color: #999;
@@ -167,4 +150,17 @@ body {
         justify-content: center;
         align-items: center;
       }
+    
+      .imagen1 {
+        display: flex;
+        background-color: aqua;
+        height: 650px;
+      }
+      .imagen1 img {
+        display:block;
+        width: 95%;
+        margin:auto;
+        height: 95%;
       
+        
+      }
