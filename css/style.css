@@ -194,8 +194,56 @@ body {
   /* Contacto */
   /* ------------------------- */
   #contacto {
-    background-color: #999;
+    background-color: #12c589;
+    padding:20px;
+    text-align: center;
+    
   }
+  #contacto
+  {
+    margin-top: 20px
+  }
+
+  #contacto h1{
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  #contacto p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  #contacto a {
+    color: #333;
+    text-decoration: none;
+  }
+  #contacto  a:hover {
+    text-decoration: underline;
+  }
+  
+  #contacto img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   a {
     color: lightseagreen;
     cursor: pointer;
