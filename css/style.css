@@ -52,7 +52,6 @@ body {
   }
   
   #inicio {
-    background-color: red;
     margin: 120px 0px 0px 0px;
     height: 100%;
     display: flex;
@@ -262,21 +261,6 @@ body {
     height: 205px;
     
   }
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   a {
     color: lightseagreen;
@@ -366,38 +350,47 @@ body {
       }
     
       #slider {
-        width: 1330px;
-        height:1200px;
         overflow: hidden;
-        background-color: orange;
+        width: 1330px;
       }
 
-      #slider ul {
-        display: flex;
-        animation: cambio 20s infinite alternate linear;
-        width: 400%;
-      }
-
-      #slider li {
-        width: 105%;
-        list-style: none;
+      #slider-main {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
       }
 
       #slider img {
-        width: 100%;
-        height: 100%;
+        float: left;
+        width: 20%;
       }
 
-      @keyframes cambio {
-        0% { 
-        margin-left: 0;
+      @keyframes slider { 
+        0% {
+            left: 0;
         }
-        20% { margin-left: 0;}
-        25% { margin-left: -100%;}
-        45% { margin-left: -100%;}
-        50% { margin-left: -200%;}
-        70% { margin-left: -200%;}
-        75% { margin-left: -300%;}
-        100% {margin-left: -300%;}
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75% {
+            left: -300%;
+        }
+        95% {
+            left: -300%;
+        }
       }
-      
