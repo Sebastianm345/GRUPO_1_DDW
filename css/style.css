@@ -197,39 +197,73 @@ body {
     background-color: #12c589;
     padding:20px;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    height: 100%;
     
   }
+#contenedorcontacto
+{
+  background-color:peru;
+  display: flex;
+  justify-content: center;
+  width: 1330px;
+  flex-wrap: wrap;
+}
   #contacto
   {
     margin-top: 20px
   }
 
   #contacto h1{
-    color: #000000;
-    font-size: 30px;
+    color:wheat;
+    font-size: 50px;
     margin-bottom: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Great Vibes', cursiva;
+    
+    
+    
 
   }
   #contacto p {
     font-size: 16px;
     margin-bottom: 5px;
+    color:saddlebrown;
+    
+    
   }
   #contacto a {
-    color: #333;
+    color: saddlebrown;
     text-decoration: none;
   }
   #contacto  a:hover {
     text-decoration: underline;
   }
+  #contenedorimg{
+    width: 40%;
+    display:flex;
+ 
+
+  }
   
   #contacto img {
     display: block;
-    margin: 0 auto;
-    max-width: 200px;
-    height: auto;
-    margin-top: 20px;
+    margin:auto;
+    width: 50%;
+    padding-bottom: 20px;
+
+
+
   }
+  #contactotexto{
+  
+    width: 100%;
+    
+    height: 205px;
+    
+  }
+
+
   
   
   
