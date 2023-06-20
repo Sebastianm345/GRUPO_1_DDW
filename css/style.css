@@ -12,12 +12,17 @@ body {
     padding:15px 0 0 0;
 	  margin: 0;
     width: 100%;
+    z-index: 100;
+    background-color: wheat;
+    height: 70px;
   }
   
   .navbar img {
-    width: 50px;
+    width: 60px;
     height: auto;
     margin-right: auto; /* Empuja la imagen hacia la izquierda */
+    margin-left: 20px;
+    margin-bottom: 15px;
   }
   
   .navbar-links {
@@ -52,10 +57,11 @@ body {
   }
   
   #inicio {
-    margin: 120px 0px 0px 0px;
+    margin: 85px 0px 0px 0px;
     height: 100%;
     display: flex;
     justify-content: center;
+    background-color: peru;
   }
   
   /* ------------------------- */
@@ -63,17 +69,19 @@ body {
   /* ------------------------- */
 
   #acerca {
-    background-color: #ccc;
     height: 150%;
     display: flex;
     justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
   }
 
   .contenedor_texto {
     display: flex;
     flex-wrap: wrap;
     width: 1330px;
-    background-color: magenta;
+    height: 100%;
+    background-color: peru;
   }
 
 .caja_titulo {
@@ -91,6 +99,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
 
 }
 
@@ -123,7 +132,6 @@ body {
 .contenedormision {
   display: flex;
   justify-content: center;
-  background-color: aqua;
   width: 40%;
   margin: 0px 20px 22px 0px;
   height: 300px;
@@ -132,7 +140,6 @@ body {
 .contenedorvision {
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 0, 0);
   width: 40%;
   margin: 0px 0px 22px 20px;
   height: 300px;
@@ -193,12 +200,12 @@ body {
   /* Contacto */
   /* ------------------------- */
   #contacto {
-    background-color: #12c589;
-    padding:20px;
+    padding: 0px 20px 20px 20px;
     text-align: center;
     display:flex;
     justify-content: center;
     height: 100%;
+    margin: 0px 0px 0px 0px;
     
   }
 #contenedorcontacto
@@ -209,10 +216,6 @@ body {
   width: 1330px;
   flex-wrap: wrap;
 }
-  #contacto
-  {
-    margin-top: 20px
-  }
 
   #contacto h1{
     color:wheat;
@@ -304,8 +307,7 @@ body {
         position: relative;
         bottom: 0;
         left: 0;
-        width: 100%;
-        background-color: #181515;
+        background-color: saddlebrown;
         color: #ccc;
         padding: 10px;
         text-align: center;
@@ -354,7 +356,7 @@ body {
         width: 1330px;
       }
 
-      #slider-main {
+      #slider_main {
         position: relative;
         width: 500%;
         margin: 0;
