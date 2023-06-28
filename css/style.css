@@ -95,6 +95,12 @@ body {
     background-position: center;
 }
 
+.caja_titulo img {
+    width: 100%;
+    height: 100%;
+
+}
+
 .productos {
     background-color: peru;
     display: flex;
@@ -109,6 +115,7 @@ body {
     color: wheat;
     font-family: 'Great Vibes', cursiva;
     font-weight: 700;
+
     
   }
 
@@ -136,6 +143,8 @@ body {
   width: 40%;
   margin: 0px 20px 22px 0px;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: .8;
 }
 
 .contenedorvision {
@@ -144,6 +153,8 @@ body {
   width: 40%;
   margin: 0px 0px 22px 20px;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: .8;
 }
 
   .texto_linea2 {
