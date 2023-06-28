@@ -57,7 +57,7 @@ body {
   }
   
   #inicio {
-    margin: 85px 0px 0px 0px;
+    margin: 95px 0px 0px 0px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -72,8 +72,9 @@ body {
     height: 150%;
     display: flex;
     justify-content: center;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     padding: 20px 20px 0px 20px;
+    background-color: cadetblue;
   }
 
   .contenedor_texto {
@@ -200,12 +201,13 @@ body {
   /* Contacto */
   /* ------------------------- */
   #contacto {
-    padding: 0px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     text-align: center;
     display:flex;
     justify-content: center;
     height: 100%;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    background-color: blueviolet;
     
   }
 #contenedorcontacto
