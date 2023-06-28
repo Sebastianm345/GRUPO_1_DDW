@@ -89,6 +89,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(AcercaIMG01.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,6 +143,8 @@ body {
   width: 40%;
   margin: 0px 20px 22px 0px;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: .8;
 }
 
 .contenedorvision {
@@ -150,6 +153,8 @@ body {
   width: 40%;
   margin: 0px 0px 22px 20px;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: .8;
 }
 
   .texto_linea2 {
