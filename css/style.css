@@ -89,10 +89,15 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(AcercaIMG01.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.caja_titulo img {
+    width: 100%;
+    height: 100%;
+
 }
 
 .productos {
@@ -109,6 +114,7 @@ body {
     color: wheat;
     font-family: 'Great Vibes', cursiva;
     font-weight: 700;
+
     
   }
 
