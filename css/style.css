@@ -316,7 +316,7 @@ body {
 #contenedorcontacto
 {
   background-color:peru;
-  background-image: url('../img/contactop.png');
+  
   background-position: bottom right;
   background-repeat: no-repeat;
   width: 1330px;
@@ -348,7 +348,7 @@ body {
     text-decoration: underline;
   }
   #contenedorimg{
-    width: 40%;
+    width: 30%;
     display:flex;
  
 
