@@ -14,15 +14,15 @@ body {
 	  margin: 0;
     width: 100%;
     z-index: 100;
-    background-color: wheat;
+    background-color: #5b373d;
     height: 90px;
   }
   
   .navbarof img {
-    width: 60px;
+    width: 70px;
     height: auto;
     margin-right: auto; /* Empuja la imagen hacia la izquierda */
-    margin-left: 20px;
+    margin-left: 3px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -76,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 10px 0px 0px 0px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 0px 0px 0px;
     background-color: cadetblue;
   }
 
@@ -85,7 +85,7 @@ body {
     flex-wrap: wrap;
     width: 1330px;
     height: 100%;
-    background-color: peru;
+    background-color: #d1c1c4;
   }
 
 .caja_titulo {
@@ -100,13 +100,11 @@ body {
 
 
 .productos {
-    background-color: peru;
+    background-color: #d1c1c4;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 0px 0px 0px;
-    width: 1330px;
-
 }
 
   .titulo {
@@ -138,7 +136,6 @@ body {
   }
 
 .contenedormision {
-  display: flex;
   justify-content: center;
   width: 40%;
   margin: 0px 20px 22px 0px;
@@ -154,13 +151,12 @@ body {
 
 .contenedormision h3 {
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
   align-content: center;
   justify-content: center;
 }
 
 .contenedorvision {
-  display: flex;
   justify-content: center;
   width: 40%;
   margin: 0px 0px 22px 20px;
@@ -175,7 +171,7 @@ body {
 
 .contenedorvision h3 {
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
   align-content: center;
   justify-content: center;
 }
@@ -296,7 +292,7 @@ body {
   /* Contacto */
   /* ------------------------- */
   #contacto {
-    padding: 10px 20px 20px 20px;
+    padding: 0px 0px 20px 0px;
     text-align: center;
     display:flex;
     justify-content: center;
@@ -307,7 +303,7 @@ body {
   }
 #contenedorcontacto
 {
-  background-color:peru;
+  background-color: #d1c1c4;
   display: flex;
   justify-content: center;
   width: 1330px;
@@ -385,10 +381,10 @@ body {
 
     a:link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: steelblue;
+    color: #d1c1c4;
       }
       a:visited {
-       color: olive;
+       color: #d1c1c4;
       }
       a:hover {
         background-color: dimgrey;
@@ -404,7 +400,7 @@ body {
         position: relative;
         bottom: 0;
         left: 0;
-        background-color: saddlebrown;
+        background-color: #5b373d;
         color: #ccc;
         padding: 10px;
         text-align: center;
