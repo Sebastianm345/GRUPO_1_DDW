@@ -60,9 +60,8 @@ body {
   }
   
   #inicio {
-    margin: 95px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
     height: 100%;
-    display: flex;
     justify-content: center;
     background-color: peru;
   }
@@ -221,7 +220,7 @@ body {
   .productos .subtitulo {
     width: 100%;
     font-size: 20px;
-    color: whitesmoke;
+    color: #5b373d;
     text-align: center;
     display: inline-block;
     margin-bottom: 50px;
