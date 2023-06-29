@@ -92,7 +92,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(AcercaIMG01.PNG);
+    background-image: url(imagenmachupicchu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,29 +110,30 @@ body {
 
   .titulo {
     font-size: 40px;
-    color: wheat;
+    color: maroon;
     font-family: 'Great Vibes', cursiva;
-    font-weight: 700;
+    font-weight: 400;
 
     
   }
 
   .linea {
     display: flex;
-    background-color: wheat;
+    background-color: rgb(228, 222, 222);
     height: 4px;
     width: 100%;
     margin: 50px 0px 0px 0px;
+
   }
 
   .texto_linea {
-    background-color: saddlebrown;
+    background-color: white;
     height: 80px;
     width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -72px 0px 0px 0px;
+    margin: -45px 0px 0px 0px;
   }
 
 .contenedormision {
@@ -143,6 +144,18 @@ body {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: .8;
+  color: azure;
+  font-size: 40px;
+  align-content: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.contenedormision h3 {
+  font-size: 20px;
+  margin-top: 70px;
+  align-content: center;
+  justify-content: center;
 }
 
 .contenedorvision {
@@ -153,39 +166,54 @@ body {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: .8;
+  color: azure;
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.contenedorvision h3 {
+  font-size: 20px;
+  margin-top: 70px;
+  align-content: center;
+  justify-content: center;
 }
 
   .texto_linea2 {
-    background-color: saddlebrown;
+    background-color: whitesmoke;
     height: 80px;
     width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -72px 0px 0px 0px;
+    margin: -45px 0px 0px 0px;
     
   }
 
   .subtitulo {
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-align: center;
     display: inline-block;
+    margin-top: 30px;
     margin-bottom: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+
   }
 
   .productos .titulo {
     font-size: 40px;
-    color:wheat;
+    color: maroon;
     font-family: 'Great vibes', serif;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 20px;
-   
+  
   }
+
   .productos .titulo span {
-    background-color: saddlebrown;
+    background-color: whitesmoke;
   }
 
   .productos .titulo::after {
@@ -195,8 +223,8 @@ body {
 
   .productos .subtitulo {
     width: 100%;
-    font-size: 30px;
-    color: saddlebrown;
+    font-size: 20px;
+    color: whitesmoke;
     text-align: center;
     display: inline-block;
     margin-bottom: 50px;
@@ -224,11 +252,13 @@ body {
     display: flex;
     justify-content: center;
     margin: 0px 5px 0px 0px;
-    background-image: url(producto.imagen2.jpg);
     height: 350px;
-    background-size: cover;
-    background-position: center;
 
+  }
+
+  .producto_imagen2 img {
+    width: 100%;
+    height: 100%;
   }
  
   .producto_imagen3 {
@@ -237,10 +267,12 @@ body {
     display: flex;
     justify-content: center;
     margin: 0px 0px 0px 5px;
-    background-image: url(producto.imagen3.jpg);
     height: 350px;
-    background-size: cover;
-    background-position: center;
+  }
+
+  .producto_imagen3 img {
+    width: 100%;
+    height: 100%;
   }
 
   .producto_imagen4 {
@@ -248,28 +280,14 @@ body {
     width: 20%;
     display: flex;
     justify-content: center;
-    margin: 0px 0px 0px 10px;
-    background-image: url(producto.imagen4.jpg);
+    margin: 0px 0px 20px 10px;
     height: 350px;
-    background-size: cover;
-    background-position: center;
+
   }
 
-  .producto_imagen1 .overlay {
-    width: 0%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background:#fff;
-    overflow: hidden;
-    transition: .5s ease;
-  }
-  
-  .producto_imagen1 .producto_imagen1:hover .overlay{
+  .producto_imagen4 img {
     width: 100%;
-    opacity: .8;
+    height: 100%;
   }
 
   
