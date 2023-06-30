@@ -74,9 +74,8 @@ body {
     height: 150%;
     display: flex;
     justify-content: center;
-    margin: 10px 0px 0px 0px;
-    padding: 20px 0px 0px 0px;
-    background-color: cadetblue;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   .contenedor_texto {
@@ -291,13 +290,12 @@ body {
   /* Contacto */
   /* ------------------------- */
   #contacto {
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
     display:flex;
     justify-content: center;
     height: 100%;
-    margin: 10px 0px 0px 0px;
-    background-color: blueviolet;
+    margin: 0px 0px 0px 0px;
     
   }
 #contenedorcontacto
