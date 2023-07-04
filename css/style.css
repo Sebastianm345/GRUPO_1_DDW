@@ -285,9 +285,14 @@ body {
     height: 100%;
   }
 
-#integrantesdelgrupo {
+
+  #integrantesdelgrupo {
   background-color: tomato;
   max-width: 1330px;
+}
+
+.btn-general {
+  background-color: white;
 }  
   /* ------------------------- */
   /* Contacto */
