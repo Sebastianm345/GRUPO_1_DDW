@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 0% 20%;
+}
+
+aside {
+    width: 30%;
+    background-color: rgb(177, 23, 126);
+    padding: 5%;
+    color: white;
+}
+
+main {
+    width: 70%;
+    background-color: rgb(243, 232, 219);
+    padding: 5%;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(243, 242, 237);
+    margin-bottom: 30px;
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.margin-title {
+    margin: 50px 0 20px 0;
+}
+
+.margin-icon {
+    margin-right: 10px;
+}
+
+.margin-row {
+    margin-bottom: 10px;
+}
+
+.chart-wrap {
+    --chart-width: 100px;
+    --grid-color: #6d686c;
+    --bar-color: #f7e4de;
+    --bar-thickness: 30px;
+    --bar-rounded: 3px;
+    --bar-spacing: 10px;
+    ;
+    font-family: 'Courier New', Courier, monospace;
+    width: var(--chart-width);
+}
+
+.chart-wrap .title {
+    font-weight: bold;
+    padding: 1.8em 0;
+    text-align: justify;
+    white-space: nowrap;
+}
+
+
+.social a {
+    width: 20%;
+    margin: 2%;
+}
+
+.social img {
+    width: 100%;
+    filter: invert();
+}
+
+.social div {
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(177, 23, 126);
+}
+
+hr {
+    width: 15%;
+    background-color: slategray;
+    border-style: none;
+    height: 4px;
+    margin: 2% 0;
+}
+
+h2,
+section h3 {
+    color: rgb(241, 92, 192);
+}
+
+h4 {
+    margin-bottom: 1%;
+}
+
+.date {
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 1%;
+}
+
+ul {
+    margin-left: 3%;
+}

@@ -1,0 +1,55 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #e6ff05;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .section {
+      margin-top: 30px; 
+      }
+
+    .section h2 {
+      margin-bottom: 10px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section li {
+      margin-bottom: 5px;
+    }
+
+    .section li span {
+      font-weight: bold;
+    }
+
+    .section p {
+      margin-bottom: 10px;
+    }
+    .picture { display: flex;justify-content: space-between;}
+    .section h2 { color: rgb(0, 37, 245)}
+h1 {color:red}
+.datos_personales, .experiencia_laboral, .Educacion{ padding:10px;margin-bottom: 10px;border:3px solid black;}
+.datos_personales { background-color:aqua}
+.experiencia_laboral {background-color:beige}
+.Educacion {background-color: cornflowerblue;}
