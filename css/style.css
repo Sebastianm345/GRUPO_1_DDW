@@ -393,20 +393,30 @@ body {
   /* ------------------------- */
   /* Contacto */
   /* ------------------------- */
+  #formulario {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
   #contacto {
     padding: 0px 0px 0px 0px;
     text-align: center;
-    display:flex;
+    height: 100%; display:flex;
     justify-content: center;
-    height: 100%;
     margin: 0px 0px 0px 0px;
     
   }
 #contenedorcontacto
 {
-  background-color: #d1c1c4;
-  display: flex;
-  justify-content: center;
+  background-color:peru;
+  
+  background-position: bottom right;
+  background-repeat: no-repeat;
   width: 1330px;
   flex-wrap: wrap;
 }
@@ -436,7 +446,7 @@ body {
     text-decoration: underline;
   }
   #contenedorimg{
-    width: 40%;
+    width: 30%;
     display:flex;
  
 
@@ -455,7 +465,6 @@ body {
   
     width: 100%;
     
-    height: 205px;
     
   }
   
