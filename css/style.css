@@ -14,15 +14,15 @@ body {
 	  margin: 0;
     width: 100%;
     z-index: 100;
-    background-color: wheat;
-    height: 90px;
+    background-color: #5b373d;
+    height: 75px;
   }
   
   .navbarof img {
-    width: 60px;
+    width: 70px;
     height: auto;
     margin-right: auto; /* Empuja la imagen hacia la izquierda */
-    margin-left: 20px;
+    margin-left: 3px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -42,16 +42,17 @@ body {
   .navbarof a {
     color: #fff;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px 25px 0px 0px;
     display: inline-block;
-    height: 90%;
+    height: 100%;
+    margin: 10px;
 	 
   }
 
 
   .content {
     margin-top: 60px;
-    padding: 20px;
+    padding: 0px;
   }
   
   /* Estilos para las secciones */
@@ -60,9 +61,8 @@ body {
   }
   
   #inicio {
-    margin: 95px 0px 0px 0px;
+    margin: 75px 0px 0px 0px;
     height: 100%;
-    display: flex;
     justify-content: center;
     background-color: peru;
   }
@@ -75,9 +75,8 @@ body {
     height: 150%;
     display: flex;
     justify-content: center;
-    margin: 10px 0px 0px 0px;
-    padding: 20px 20px 0px 20px;
-    background-color: cadetblue;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   .contenedor_texto {
@@ -85,7 +84,7 @@ body {
     flex-wrap: wrap;
     width: 1330px;
     height: 100%;
-    background-color: peru;
+    background-color: yellow;
   }
 
 .caja_titulo {
@@ -96,16 +95,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 5px;
 }
 
 
 .productos {
-    background-color: peru;
+    background-color: #d1c1c4;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 0px 0px 0px;
-
+    padding-top: 50px;
 }
 
   .titulo {
@@ -137,7 +137,6 @@ body {
   }
 
 .contenedormision {
-  display: flex;
   justify-content: center;
   width: 40%;
   margin: 0px 20px 22px 0px;
@@ -153,13 +152,12 @@ body {
 
 .contenedormision h3 {
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
   align-content: center;
   justify-content: center;
 }
 
 .contenedorvision {
-  display: flex;
   justify-content: center;
   width: 40%;
   margin: 0px 0px 22px 20px;
@@ -174,7 +172,7 @@ body {
 
 .contenedorvision h3 {
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
   align-content: center;
   justify-content: center;
 }
@@ -224,7 +222,7 @@ body {
   .productos .subtitulo {
     width: 100%;
     font-size: 20px;
-    color: whitesmoke;
+    color: #5b373d;
     text-align: center;
     display: inline-block;
     margin-bottom: 50px;
@@ -290,7 +288,108 @@ body {
     height: 100%;
   }
 
-  
+  .producto_imagen5 {
+    background-color: beige;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
+  }
+  .producto_imagen5 figure {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.producto_imagen5 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.producto_imagen5 figure .capahover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: visible;
+    background-color: rgba(91, 55, 61, 0.7);
+    transition: all 500ms ease-out;
+    text-align: center;
+    z-index: 1;
+}
+
+.producto_imagen5 figure:hover > .capahover {
+    opacity: 1;
+    visibility: visible;
+}
+.producto_imagen5 figure:hover > .capahover h3 {
+    margin-top: 105px;
+    margin-bottom: 15px;
+}
+.producto_imagen5 figure:hover > img {
+    transform: scale(1.3);
+}
+.producto_imagen5 figure .capahover h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.producto_imagen5 figure .capahover p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 280px;
+    margin: 0px 0px 30px 9px;
+}
+
+#boton {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #5b373d;
+  margin: 0px 5px 0px 0px;
+  padding: 9px 30px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  text-align: center;
+}
+
+#boton::before {
+  background: #5b373d;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+#boton::before {
+  width: 0;
+  height: 100%;
+}
+#boton:hover::before {
+  width: 100%;
+
+}
+
+
+  #integrantesdelgrupo {
+  background-color: tomato;
+  max-width: 1330px;
+}
+
+
   /* ------------------------- */
   /* Contacto */
   /* ------------------------- */
@@ -305,12 +404,11 @@ body {
   
   
   #contacto {
-    padding: 10px 20px 20px 20px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
     height: 100%; display:flex;
     justify-content: center;
-    margin: 10px 0px 0px 0px;
-    background-color: blueviolet;
+    margin: 0px 0px 0px 0px;
     
   }
 #contenedorcontacto
@@ -393,10 +491,10 @@ body {
 
     a:link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: steelblue;
+    color: #d1c1c4;
       }
       a:visited {
-       color: olive;
+       color: #d1c1c4;
       }
       a:hover {
         background-color: dimgrey;
@@ -412,7 +510,7 @@ body {
         position: relative;
         bottom: 0;
         left: 0;
-        background-color: saddlebrown;
+        background-color: #5b373d;
         color: #ccc;
         padding: 10px;
         text-align: center;
@@ -456,4 +554,6 @@ body {
         align-items: center;
       }
     
-   
+      .h5{
+        font-family: 'Arimo', sans-serif;
+      }
