@@ -294,7 +294,7 @@ body {
     height: 300px;
     display: flex;
     justify-content: center;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 15px 20px 0px;
   }
   .producto_imagen5 figure {
     position: relative;
@@ -355,7 +355,7 @@ body {
   color: white;
   font-size: 14px;
   text-decoration: none;
-  border: 2px solid #5b373d;
+  border: 2px solid #d1c1c4;
   margin: 0px 5px 0px 0px;
   padding: 9px 30px;
   text-transform: uppercase;
@@ -365,7 +365,7 @@ body {
 }
 
 #boton::before {
-  background: #5b373d;
+  background: #d1c1c4;
   content: "";
   position: absolute;
   top: 50%;
@@ -385,7 +385,7 @@ body {
 
 
   #integrantesdelgrupo {
-  background-color: tomato;
+  background-color: #d1c1c4;
   max-width: 1330px;
 }
 
@@ -497,14 +497,12 @@ body {
        color: #d1c1c4;
       }
       a:hover {
-        background-color: dimgrey;
-        color: white;
         transition-property: color, background-color;
         transition-duration: 300ms, 400ms;
         transition-timing-function: ease-in, ease-out;
       }
       a:active {
-       background-color: rgb(223, 63, 63);
+       background-color: rgb(209, 193, 196);
       }
       footer {
         position: relative;
