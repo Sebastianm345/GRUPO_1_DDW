@@ -15,4 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-  
+  function mostrarMensaje() {
+    alert("Gracias, te enviaremos un email.");
+  }
