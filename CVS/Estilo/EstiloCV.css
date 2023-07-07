@@ -120,46 +120,70 @@ ul {
 .main-container {
     width: 50%;
     padding-left: 24px;
-}
-.skills-container {
-    width: 100%;
-    background-color: #CF4444;
+    background-color: yellow;
 }
 
 .skills {
-    text-align: right;
-    color: #CF4444;
-    padding-right: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 23px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin: 17px 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-
-}
-.illustrator {
-     width: 85%;
-     background-color: #F29999;
 }
 
-.Photoshop {
-    width: 70%;
+.skill-bar {
+    height: 18px;
+    background-color: #CF4444;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 18px;
     background-color: #F29999;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.8s 1;
 }
 
-.Premiere {
-    width: 50%;
-    background-color: #F29999;
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 10px;
+    background: #CF4444;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    top: -40px;
+    color: #F29999;
+    right: 0;
+    transform: translate(50%);
 }
 
-.CSS {
-    width: 40%;
-    background-color: #F29999;
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #CF4444;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
 }
 
-.Html {
-    width: 40%;
-    background-color: #F29999;
-
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 h1 {
