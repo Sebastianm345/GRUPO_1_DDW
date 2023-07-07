@@ -596,6 +596,31 @@ body {
     text-decoration: line-through;
    
     }
+    #boton3 {
+      
+        
+        
+        font-size: 20px;
+        cursor:pointer;
+        
+        
+      
+        padding: 9px 30px;
+        
+        
+        transition: 1s all ease;
+        
+      }
+      
+      
+      #boton3:hover {
+        width: 100%;
+        
+        padding: 10px 30px;
+
+   
+      
+    }
     
 /*
 
