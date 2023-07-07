@@ -383,6 +383,47 @@ body {
 
 }
 
+#boton2 {
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #5b373d;
+  margin: 0px 0px 6px 0px;
+  width: 140px;
+  padding: 7px 19px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  text-align: center;
+}
+
+#boton2::before {
+  background: #5b373d;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+#boton2::before {
+  width: 0;
+  height: 100%;
+}
+#boton2:hover::before {
+  width: 100%;
+
+}
+ 
+#buton2 a {
+  z-index: 5px;
+}
+
+
+
 
   #integrantesdelgrupo {
   background-color: #d1c1c4;
