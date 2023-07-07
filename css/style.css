@@ -435,7 +435,6 @@ body {
 
   #contenedoraccesorios
   {
-    background-color:peru;
     width: 1330px;
     height: 100%;
     display: flex;
@@ -448,7 +447,6 @@ body {
   #contenedoraccesorioimg{
     width: 630px;
     height: 520px;
-    background-color: aqua;
     margin: 23px 0px 0px 0px;
  
   }
@@ -460,7 +458,6 @@ body {
   #contenedoraccesoriostexto {
     width: 650px;
     height: 520px;
-    background-color: yellow;
     margin: 23px 0px 0px 0px;
     padding: 0px 0px 0px 30px;
     text-align: left;
@@ -530,7 +527,6 @@ body {
     height: 100%; display:flex;
     justify-content: center;
     margin: 0px 0px 0px 0px;
-    background-color: violet;
   }
 
 
