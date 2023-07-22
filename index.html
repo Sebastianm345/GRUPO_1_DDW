@@ -31,17 +31,13 @@
       <a href="#inicio"><i class="fas fa-home"></i> Inicio</a>
       <a href="#fondo"><i class="fas fa-file"></i></i> Acerca</a>
       <a href="#contacto"><i class="fas fa-user"></i>  Contacto</a>
-      <a target="_blank" href="#integrantesdelgrupo"></i> Equipo</a>
+      <a target="_blank" href="https://web.whatsapp.com/send?phone=957282186"><i class="fas fa-phone"> </i> Wsp</a>
 
 
     </div>
 
   </nav>
-   
-  <a href="https://api.whatsapp.com/send?phone=&text=Hola,%20estoy%20interesado%20en%20su%20servicio." class="whatsapp-button" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="WhatsApp">
-  </a>
-  
+      
 
         <div id="inicio" class="content section">  
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -54,7 +50,7 @@
               <div class="carousel-item active">
                 <img src="img/joyería1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size: 42px; ">Originalidad</h5>
+                  <h5 style="font-size: 42px; font-family: 'Arimo', sans-serif;">Originalidad</h5>
                   <p style="font-size: 23px;">Diseños inspirados unicamente en la ruiqueza cultural de nuestro país.</p>
                 </div>
               </div>
@@ -201,7 +197,7 @@
                 <div class="linea"> 
                 </div>
                 <h2 class="titulo">
-                  <div class="texto_linea">Sobre Nosotros
+                  <div class="texto_linea">¿Sobre Nosotros?
                   </div>
                 </h2>
                 <p class="subtitulo"> QULLA ES UNA MARCA QUE BUSCA TRANSMITIR A TODAS SUS CLIENTES UNA PARTE DE LA CULTURA PERUANA, CUIDANDO LA SOSTENIBILIDAD EN CADA UNO DE SUS PROYECTOS. </p>
@@ -224,7 +220,7 @@
 
                 
           <div class="pricing-header mx-auto text-center">
-              <h1 class="display-4" style="font-family: 'Great Vibes', cursiva; color: #5b373d; padding-top: 24px;">Nuestro Equipo</h1>
+              <h1 class="display-4">Inicio</h1>
             
           </div>
       
@@ -274,51 +270,31 @@
       </div>
   
 
-    <div class="container" id="container-contacto">
-      <h1 style="font-family: 'Great Vibes', cursiva; color: #5b373d; font-size: 55px;">Contactanos</h1>
-        <div class="col-md-12 mt-5">
-            <form class="row g-3">
-              
-                <div class="col-md-4">
-                  <label for="Nombres" class="form-label">Nombres y apellidos</label>
-                  <input type="text" class="form-control" id="Nombresyapellidos" name="Nombresyapellidos" required>
-                </div>
-
-                <div class="col-md-4">
-                    <label for="Apellidos" class="form-label">Numero</label>
-                    <input type="number" class="form-control" id="Numerocelular" name="Numerocelular" required>
-                </div>
-                
-                <div class="col-md-4">
-                    <label for="Correo" class="form-label">Correo</label>
-                    <div class="input-group">
-                      <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                      <input type="text" class="form-control" id="texCorreo" name="texCorreo" required>
-                  </div>
-                </div>
-
-                <div class="form-floating">
-                    <label for="comentario">Dejanos un comentario</label>
-                    <textarea class="form-control" id="texcomentario" style="height: 100px; margin-top: 58px;" name="texcomentario"></textarea>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label" for="invalidCheck2">
-                    Agree to terms and conditions
-                    </label>
-                  </div>
+      <div id="contacto" class="content section">
+        <div id="contenedorcontacto">
+          <div id="contactotexto">
+            <h1 style="margin-top: 15px;">Contactanos</h1>
+          </div>
+          <div id="formulario">
+            <div id="formulario2">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Tu correo:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
-
-
-                <div class="col-12">
-                    <button class="btn btn-primary" type="submit" id="btnenviar" name="btnenviar">Submit form</button>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos un mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div id="boton3">
+                  <button onclick="mostrarMensaje()">Enviar</button>
                 </div>
-
-            </form>
+              </div>
+    
             </div>
-
-    </div>
+          </div>
+         
+        </div>
+        
+      </div>
   <footer>
         <div class="footer-icons">
           <a href="#"><i class="fab fa-twitter"></i></a>
@@ -326,17 +302,14 @@
           <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="footer-text">
-          <p>Created by: Mauro Leon, Elizabeth Trigoso, Samira Francia y Jefrey Angeles</p>
+          <p>Created by:Grupo 1</p>
          
         </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://kit.fontawesome.com/0dab041601.js" crossorigin="anonymous"></script>
   <script src="js/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="validacion.js"></script>
-
 </body>
 </html>
