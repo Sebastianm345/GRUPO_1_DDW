@@ -50,6 +50,10 @@ body {
 	 
   }
 
+  .navbarof a:hover {
+    color: #ECD4D8;
+    background-color: #B56D79;
+  }
 
   .content {
     margin-top: 60px;
@@ -94,7 +98,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 5px;
 }
 
 
